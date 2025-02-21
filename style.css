@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.topheading{
+    height: 40px;
+    display: flex;
+    background-color: #A294F9;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#or_line {
+    color: white;
+}
+.contact {
+    margin-left: 20px;
+}
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+    
+}
+.nav {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu {
+    height: 50px;
+    width: 400px;
+    padding-right: 300px;
+    display: flex;
+    
+    justify-content: center;
+}
+.about{
+    height: 50px;
+    width: 5rem;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+}
+.about:hover{
+    border: 1px solid black;
+}
+.buy {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    height: 50px;
+    width: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero section..... */
+
+.hero {
+    height: 400px;
+    background-image: url("hero.jpg");
+    background-size:cover;
+}
+.hero1 {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: flex-end;
+
+}
+.heroline {
+    margin: 0px 10px 90px 150px;
+    height: 130px;
+    width: 7px;
+    background-color: #A294F9;
+}
+.hero_head {
+    
+    color: white;
+    margin-bottom: 100px;
+
+}
+#headline {
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    height: 25px;
+}
+#sub_head {
+    margin-bottom: 20px;
+}
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: white;
+}
+
+/* books section */
+
+.books {
+    height: 300px;
+    background-color: rgb(213, 217, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box {
+    height: 250px;
+    width: 200px;
+    margin-top: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+}
+#book {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+
+}
+
+/* about us section */
+
+.about_us {
+    height: 200px;
+    width: 130vh;
+    margin: 25px 0px 0px 150px;
+}
+.about_heading {
+    font-size: 1.75rem;
+    font-weight: bolder;
+    margin: 0px 0px 10px 0px;
+}
+#mission {
+    margin: 10px 0px 5px 0px;
+}
+/* footer part */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contact-info, footer .social-media, footer .newsletter-signup {
+    margin-bottom: 20px;
+}
+
+footer .contact-info p, footer .newsletter-signup p, footer .copyright p {
+    margin: 5px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-media a i {
+    font-size: 1.5rem;
+}
+
+footer .newsletter-signup input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer .newsletter-signup button {
+    background-color: #A294F9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
